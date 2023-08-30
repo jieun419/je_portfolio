@@ -1,16 +1,22 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --main-one-color: #f5f5f5;
+  --main-two-color: #323232;
+  
+  --white: #fff;
+  --black: #000;
+  --black-900: #0c0c0c;
+  --black-700: #373737;
+  --gray-700: #B0B0B0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --main-one-color: #f5f5f5;
+    --main-two-color: #323232;
+    --white: #fff;
+    --black: #000;
   }
 }
 
